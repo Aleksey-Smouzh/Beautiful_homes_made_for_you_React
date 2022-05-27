@@ -11,11 +11,16 @@ body {
 
 }
 
+.header {
+  display: flex;
+}
+
 .header_container {
+  position: absolute;
   width: 1440px;
   height: 1000px;
   margin: auto;
-  position: absolute;
+
 }
 
 .header_container_base {
@@ -25,7 +30,6 @@ body {
   left: -16px;
   top: 15px;
   background: #080808;
-
   z-index: 0;
 }
 
@@ -33,7 +37,7 @@ body {
   background-image: url(img/header-beauregard.svg);
   background-repeat: no-repeat;
   width: 1440px;
-  height: 982.05px;
+  height: 852px;
   position: relative;
   z-index: 99;
   opacity: 1;
@@ -52,9 +56,13 @@ body {
   border: 1px solid white;
   background-color: white;
 }
-div+span{
-  color: blue;
-}
-p span {
-  color: red;
+
+.main_container {
+display: flex;
+  position: absolute;
+  width: 1238px;
+  height: 657px;
+  left: 0px;
+  top: 1000px;
+
 }
