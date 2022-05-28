@@ -46,8 +46,8 @@ body {
 .header_bg_img::after {
   content: "";
   background: linear-gradient(rgba(0, 0, 0, 0.0001) 15.31%);
-              /* linear-gradient(rgba(0, 0, 0, 0.837986) 67.37%); */
-   opacity: 0.8;
+  /* linear-gradient(rgba(0, 0, 0, 0.837986) 67.37%); */
+  opacity: 0.8;
 }
 
 /* rgba(0, 0, 0, 0.837986) 67.37%) */
@@ -89,4 +89,12 @@ body {
 
   background: #000000;
   border-radius: 0px 18px 0px 0px;
+}
+
+.cards_container {
+  display: flex;
+  width: 336px;
+  height: 266px;
+  background:rgba(245, 245, 245, 1);
+  
 }
