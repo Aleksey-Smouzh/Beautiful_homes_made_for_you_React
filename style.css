@@ -93,8 +93,26 @@ body {
 
 .cards_container {
   display: flex;
+  /* width: 336px;
+  height: 266px; */
+  background: rgba(245, 245, 245, 1);
+
+}
+
+/* .card_title {
+  border-bottom: 1px solid black;
+} */
+
+.cards_img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+
+}
+
+.btn_container {
   width: 336px;
-  height: 266px;
-  background:rgba(245, 245, 245, 1);
-  
+  height: 69px;
+  border: 1px solid black,
 }
